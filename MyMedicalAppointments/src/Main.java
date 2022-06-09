@@ -8,5 +8,8 @@ public class Main {
         Doctor myDoctor = new Doctor("Marco Perez", "Cirujano");
         System.out.println(myDoctor.name);
         System.out.println(myDoctor.speciality);
+
+        Patient patient = new Patient("Daniela Riera", "danirieraparedes@gmail.com");
+        
     }
 }
