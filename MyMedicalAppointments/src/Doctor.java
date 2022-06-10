@@ -1,8 +1,16 @@
+import java.util.Date;
+
 public class Doctor {
     //Atributos
     static int id = 0; //Autoincrement
-    String name;
-    String speciality;
+    private String name;
+    private String email;
+    private String speciality;
+
+    private int id_availableAppointment;
+    private Date date;
+    private String time;
+    //AvailableAppointment
 
     Doctor(){
         System.out.println("Construyendo el Objeto Doctor...");
