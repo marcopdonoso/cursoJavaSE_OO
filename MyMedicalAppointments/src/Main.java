@@ -7,7 +7,7 @@ public class Main {
 
         //showMenu();
 
-        Doctor myDoctor = new Doctor("Marco Perez", "Cirujano");
+        Doctor myDoctor = new Doctor("Marco Perez", "marcopdonoso@gmail.com");
         myDoctor.addAvailableAppointment(new Date(), "4pm");
         myDoctor.addAvailableAppointment(new Date(), "8pm");
         myDoctor.addAvailableAppointment(new Date(), "10pm");
@@ -18,29 +18,10 @@ public class Main {
 
         //Variable vs Objeto: Un vistazo a la memoria
 
-        /*System.out.println();
         System.out.println();
-        Patient patient = new Patient("Sondo", "Gastro");
-        Patient patient2 = new Patient("Druno", "Gineco");
-
-        System.out.println(patient.getName());
-        System.out.println(patient2.getName());
-        patient2 = patient;
-
-        System.out.println(patient.getName());
-        System.out.println(patient2.getName());
-
-        patient2.setName("Manuel");
-        System.out.println(patient.getName());
-        System.out.println(patient2.getName());
-
-        Patient patient = new Patient("Daniela Riera", "danirieraparedes@gmail.com");
-
-        patient.setWeight(55);
-        System.out.println(patient.getWeight());
-
-        patient.setPhoneNumber("12345678");
-        System.out.println(patient.getPhoneNumber());*/
+        System.out.println();
+        Patient patient = new Patient("Eliane Elias", "eliane@gmail.com");
+        System.out.println(patient);
 
     }
 }
